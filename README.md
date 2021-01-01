@@ -10,4 +10,4 @@ Season Example: 1
 Extension Example: .mkv
 ```
 
-**Renamed File Output Example: Sword Art Online - 1x01.mkv** 
+**Renamed File Output Example: *Sword Art Online - 1x01.mkv
