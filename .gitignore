@@ -1,4 +1,0 @@
-#everything except .c source
-*
-!*.py
-!*.md
