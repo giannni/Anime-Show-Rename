@@ -1,7 +1,5 @@
 import sys
 import os
-import tkinter as tk
-from tkinter import simpledialog
 from pip._vendor.distlib.compat import raw_input
 
 
@@ -23,16 +21,6 @@ def batch_rename(path, show, season):
 
 
 if __name__ == '__main__':
-    """
-    master = tk.Tk()
-    master.withdraw()
-
-    directory = simpledialog.askstring(title="Directory", prompt="Enter the directory")
-    show_name = simpledialog.askstring(title="Show Name", prompt="Enter the show name")
-    season_number = simpledialog.askstring(title="Season", prompt="Enter the season number")
-    extension = simpledialog.askstring(title="Extension", prompt="Enter the extension")
-    """
-
     # ask for our directory as raw input because a string will mess up the input we give
     directory = raw_input("Paste directory: ")
 
